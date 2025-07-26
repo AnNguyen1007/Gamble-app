@@ -4,6 +4,24 @@
   align-items: center;
   padding: 20px;
   font-family: 'Segoe UI', sans-serif;
+  padding-left: 100px;
+}
+
+.btn-swap {
+  padding: 10px 20px;
+  border-radius: 12px;
+  background-color: rgb(132, 192, 37);
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+
+
+}
+
+.btn-swap:hover {
+  background-color: #6fa01f;
 }
 
 .user-board {

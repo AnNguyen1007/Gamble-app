@@ -1,6 +1,12 @@
-
 import axiosClient from "../utils/instanceApi";
+
 const getUsers = () => {
     return axiosClient.get("/users")
 }
-export default getUsers;
+
+const getTodos = () => {
+    return axiosClient.get("/todos")
+}
+export default { getUsers, getTodos };
+
+
