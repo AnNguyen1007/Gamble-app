@@ -1,5 +1,5 @@
 import Header from "./Header"
-
+import Home from "./apiTest"
 import Sidebar from "./Sidebar"
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
       <div className="app-layout">
         <Sidebar />
         <div className="main-content">
-          <h1>Dashboard</h1>
+          <Home />
         </div>
       </div>
     </div>
