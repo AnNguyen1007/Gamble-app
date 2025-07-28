@@ -1,4 +1,4 @@
-import api from "../src/services/APIservice"
+import api from "../services/APIservice"
 import "./App.css"
 import { useEffect, useState } from "react";
 
@@ -15,9 +15,7 @@ const Home = () => {
         } catch (e) {
             console.log(e);
         }
-
     };
-
 
     const fetchListTodos = async () => {
         try {
@@ -32,20 +30,16 @@ const Home = () => {
     useEffect(() => {
         fetchListUsers();
         fetchListTodos();
-
     }, []);
+
     return (
         <div className="list-user">
             <div>
                 <button className="btn-swap" onClick={() => setActiveTable("users")}>LIST USER</button>
                 <button className="btn-swap" onClick={() => setActiveTable("todos")}>LIST TODO</button>
-
             </div>
-
-
             {activeTab === "users" && (
                 <>
-
                     <h2>LIST USER</h2>
                     <ul className="user-board">
                         {(listUsers.map((user) => (
@@ -60,14 +54,9 @@ const Home = () => {
                     </ul>
                 </>
             )}
-
-
             {activeTab === "todos" && (
                 <>
-
                     <h2>LIST TODO</h2>
-
-
                     <ul className="user-board">
                         {(listTodos.map((todo) => (
                             <div key={todo.id} className="board">
@@ -81,7 +70,6 @@ const Home = () => {
                     </ul>
                 </>
             )}
-
         </div>
     )
 }

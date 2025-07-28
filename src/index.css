@@ -4,13 +4,11 @@ body {
   background: #060610;
   color: white;
   min-height: 100vh;
-
 }
 
 .app-layout {
   display: flex;
   margin-top: 70px;
-
 }
 
 .main-content {

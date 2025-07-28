@@ -7,6 +7,7 @@ const getUsers = () => {
 const getTodos = () => {
     return axiosClient.get("/todos")
 }
+
 export default { getUsers, getTodos };
 
 
