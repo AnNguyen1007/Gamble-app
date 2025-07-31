@@ -1,4 +1,5 @@
-import "../src/header/Sidebar.css"
+import "../Style/Sidebar.css"
+// import "../src/header/Sidebar.css"
 import { Layers, ChartBarStacked, ChartLine, Scale3d, Calculator, Database, Droplet, Activity } from "lucide-react";
 
 

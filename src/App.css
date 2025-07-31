@@ -22,26 +22,14 @@
   background-color: #6fa01f;
 }
 
-.user-board {
-  display: flex;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+.items-table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-.board {
-  padding: 20px;
-  box-shadow: 0 0px 1px #4d4c4c;
-  transition: box-shadow 0.2 ease;
-  border-radius: 12PX;
-  cursor: pointer;
-}
-
-.board:hover {
-  box-shadow: 0 0px 1px #6d6d6d;
-  transform: translateY(-1px);
-}
-
-.board-name {
-  font-size: medium;
+.items-table th,
+.items-table td {
+  border: 1px solid #2e2e2e;
+  padding: 9px;
+  text-align: left;
 }

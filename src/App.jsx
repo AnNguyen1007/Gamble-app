@@ -1,5 +1,5 @@
 import Header from "./Component/Header"
-import Home from "./Component/apiTest"
+import Home from "./Component/Home"
 import Sidebar from "./Component/Sidebar"
 function App() {
 
