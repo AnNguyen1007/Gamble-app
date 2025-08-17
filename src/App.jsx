@@ -1,6 +1,6 @@
-import Header from "./Header"
-import Home from "./apiTest"
-import Sidebar from "./Sidebar"
+import Header from "./Component/Header"
+import Home from "./Component/Home"
+import Sidebar from "./Component/Sidebar"
 function App() {
 
   return (

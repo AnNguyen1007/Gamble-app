@@ -1,7 +1,7 @@
 import React from "react";
-import "../src/header/Header.css";
-import logo from "./assets/coin.png";
-import avatar from "./assets/avatar.png";
+import "../Style/Header.css"
+import logo from "../assets/coin.png";
+import avatar from "../assets/avatar.png";
 import { Bell, ChevronUp, ChevronDown, Settings } from "lucide-react";
 
 function Header() {

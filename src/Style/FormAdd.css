@@ -1,0 +1,40 @@
+.form-add {
+    max-width: 400px;
+    padding: 10px;
+    font-family: 'Segoe UI', sans-serif;
+    align-items: center;
+}
+
+.form-add div {
+    display: flex;
+    padding: 2px;
+    gap: 10px;
+    align-items: center;
+}
+
+.form-add label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    width: 100px;
+}
+
+.form-add input[type="text"] {
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.btn-add {
+    padding: 10px 20px;
+    background-color: rgb(110, 231, 146);
+    border-radius: 12px;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-add-ctn {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
