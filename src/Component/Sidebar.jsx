@@ -1,4 +1,5 @@
-import "../src/header/Sidebar.css"
+import "../Style/Sidebar.css"
+// import "../src/header/Sidebar.css"
 import { Layers, ChartBarStacked, ChartLine, Scale3d, Calculator, Database, Droplet, Activity } from "lucide-react";
 
 
@@ -17,13 +18,7 @@ function Sidebar() {
                     <li><Droplet size={(18)} />Staking Calculator</li>
                     <li><Activity size={(18)} />Data API</li>
                     <li><ChartLine size={(18)} />Liquid Staking</li>
-                    <li><Scale3d size={(18)} />Active Staking
-                        {/* <ul className="dropdown">
-                            <li>Thiết kế</li>
-                            <li>Phát triển</li>
-                            <li>SEO</li>
-                        </ul> */}
-                    </li>
+                    <li><Scale3d size={(18)} />Active Staking</li>
                 </ul>
             </nav>
             <div>
